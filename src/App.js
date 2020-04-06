@@ -7,8 +7,8 @@ class App extends Component {
       {id: 2, content: 'buy some cololate'}
     ]
   }
-deleteTodo= (id)=>{
-  console.log(id); 
+deleteTodo= (id) =>{
+  console.log("delete invoked  " + id); 
 }
   render() {
     return (
